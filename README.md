@@ -5,4 +5,5 @@ this piece of garbage is so ugly slow and i hate it
 
 i hope itl be enough to get me in high school thoe :P
 
+based on .net 9.0.2
 
