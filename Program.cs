@@ -20,6 +20,8 @@ namespace logicgates
 
             Raylib.SetTargetFPS(60);
 
+            Raylib.SetExitKey(0);
+
             Textures.init();
 
             while (!Raylib.WindowShouldClose() && !Window.isquitting)
