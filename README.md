@@ -8,3 +8,4 @@ i hope itl be enough to get me in high school thoe :P
 based on .net 9.0.2<br>
 made in 3 days
 
+note to self : use c++ 17 next time
