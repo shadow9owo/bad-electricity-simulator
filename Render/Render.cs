@@ -415,6 +415,10 @@ namespace logicgates
                                     {
                                         Window.posbuffer.Add(mousePos);
                                     }
+                                    else 
+                                    {
+                                        return;
+                                    }
                                 }
                             }
                         }else {
