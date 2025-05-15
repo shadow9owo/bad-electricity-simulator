@@ -9,3 +9,8 @@ based on .net 9.0.2<br>
 made in 3 days
 
 note to self : use c++ 17 next time
+
+I DIDNT FUCKING GET ACCEPTED THOSE CUNTS TOLD ME THAT THEYL ACCEPT ME AND THEN THEY DECLINED ME WITH THE REASON:
+didnt come to the meeting...
+
+FUCKKKKK
