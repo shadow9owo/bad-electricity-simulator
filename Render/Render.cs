@@ -9,10 +9,15 @@ namespace logicgates
 {
     class Render
     {
+        public static void RenderUI()
+        {
+            Raylib.DrawText($"current selected item : {Enum.GetName(typeof(Window.Items), Window.selecteditem)}",10,(int)Window.winsize.Y - (24 * 1), (int)24, new Color(0, 0, 0, 255 / 1));
+            return;
+        }
+
         public static Vector2 mousePos;
         public static void RendererCallBacks()
         {
-            Raylib.DrawText($"current selected item : {Enum.GetName(typeof(Window.Items),Window.selecteditem)}",(int)Raylib.GetScreenToWorld2D(new Vector2(10,0),Program.camera).X,(int)Raylib.GetScreenToWorld2D(new Vector2(0,Window.winsize.Y),Program.camera).Y - (24 * 1),(int)24,new Color(0,0,0,255 / 1));
             if (Window.debug)
             {
                 foreach (var item in Window.electricline) 
@@ -277,8 +282,6 @@ namespace logicgates
             {
                 Raylib.DrawRectangleRec(new Rectangle(mousePos.X, mousePos.Y,new Vector2(8, 8)),Color.Brown);
             }
-
-            Logger.renderlogger();
 
             return;
         }

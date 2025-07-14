@@ -17,7 +17,7 @@ namespace logicgates{
             int i = 1;
             foreach (var item in Window.logs)
             {
-                Raylib.DrawText(item,(int)Raylib.GetScreenToWorld2D(new Vector2(10,0),Program.camera).X,(int)Raylib.GetScreenToWorld2D(new Vector2(0,-24),Program.camera).Y + (24 * i),(int)24,new Color(0,0,0,255 / i));
+                Raylib.DrawText(item,10,-24 + (24 * i),(int)24,new Color(0,0,0,255 / i));
                 i = i + 1;
             }
             return;
